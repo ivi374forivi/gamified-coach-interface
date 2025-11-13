@@ -61,14 +61,23 @@ The repository contains several key documents:
 
 ## Development Path
 
-Based on the document analysis, the recommended development phases are:
+## Development Path
 
-1. **Foundation**: Core data models and user profiles
-2. **Interface**: User dashboard and tracking tools
-3. **Coaching Features**: Personalized recommendations and goal tracking
-4. **Gamification**: Achievement systems and challenges
-5. **Business Integration**: Payments, communication, and analytics
+The recommended development phases are generated dynamically based on the content and themes found in the analyzed documents. The system identifies relevant topics and suggests actionable phases accordingly.
 
+For example:
+- If a document focuses only on fitness, the suggested phases may include:
+  1. **Foundation**: Core data models and user profiles
+  2. **Interface**: User dashboard and tracking tools
+  3. **Coaching Features**: Personalized recommendations and goal tracking
+- If business or gamification topics are present, additional phases such as **Gamification** and **Business Integration** may be included.
+
+Possible phases include:
+- **Foundation**: Core data models and user profiles
+- **Interface**: User dashboard and tracking tools
+- **Coaching Features**: Personalized recommendations and goal tracking
+- **Gamification**: Achievement systems and challenges
+- **Business Integration**: Payments, communication, and analytics
 ## Contributing
 
 This is a document analysis tool for the gamified fitness coaching interface project. To contribute:
